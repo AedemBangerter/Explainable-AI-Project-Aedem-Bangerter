@@ -4,8 +4,8 @@
 
 ## Description
 
-This project investigates the use of two Explainable AI (XAI) methods—**LIME** and **Integrated Gradients**—to interpret predictions from an **LSTM model** trained on historical Apple stock price data.  
-The goal is to understand which **time steps** are most influential in a one-step-ahead forecasting task and how each explanation method aligns with expectations in financial prediction settings.
+This project investigates the use of two Explainable AI (XAI) methods **LIME** and **Integrated Gradients**, to interpret predictions from an **LSTM model** trained on historical Apple stock price data.  
+The goal is to understand which **time steps** are most influential in a one-step-ahead forecasting task and how each explanation method aligns with expectations in a financial prediction setting.
 
 ## Table of Contents
 
