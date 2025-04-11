@@ -9,8 +9,7 @@ The goal is to understand which **time steps** are most influential in a one-ste
 
 ## Table of Contents
 
-- [Installation](#installation)  
-- [Usage](#usage)  
+- [Installation](#installation)   
 - [Data](#data)  
 - [License](#license)
 
@@ -34,3 +33,20 @@ You can install the required packages and launch the notebook using the followin
 ```bash
 git clone https://github.com/AedemBangerter/Explainable-AI-Project-Aedem-Bangerter.git
 cd Explainable-AI-Project-Aedem-Bangerter
+
+### Install the required packages
+
+```bash
+pip install pandas numpy matplotlib scikit-learn torch captum lime yfinance
+```
+
+## Data
+
+This project uses hourly Apple (AAPL) stock price data from January 2020 to January 2024, retrieved using the [`yfinance`](https://github.com/ranaroussi/yfinance) Python library.
+
+The prediction task is a one-step-ahead forecast, where the model predicts the next price based on the previous 10 time steps.
+
+## License
+
+The data used in this project is sourced from public APIs (Yahoo Finance) and is subject to their usage policies.  
+This project is for educational and research purposes only.
